@@ -33,7 +33,7 @@
                     <p:message for="isbn"/>
                     
                     <h:outputLabel value="Preço:" for="preco"  required="true"/>
-                    <p:inputNumber id="preco" value="#{livroBean.livro.preco}" minValue="1" maxValue="1000" decimalPlaces="2" required="true" requiredMessage="preco obrigatória"/>     
+                    <p:inputNumber id="preco" value="#{livroBean.livro.preco}" minValue="1" decimalPlaces="2" required="true" requiredMessage="preco obrigatória"/>     
                     <p:message for="preco"/>
                     
                     <p:outputLabel for="dataLancamento" value="Data de Lançamento: "/>
